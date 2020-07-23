@@ -1,8 +1,18 @@
+main {
+    background-color:rgb(243, 219, 181);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
 .Titulo {
-    color:blueviolet;
+    margin: initial;
+    color:rgb(175, 38, 3);
     font-style: italic;
 }
 .Corpo {
-    background-color: whitesmoke;
-    background-position-x: right;
+    background-color:rgb(198, 148, 245);
+    padding: 10px;
+}
+.Foto {
+    float: right;
 }
