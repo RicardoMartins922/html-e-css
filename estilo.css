@@ -1,5 +1,5 @@
 main {
-    background-color:rgb(218, 199, 169);
+    background-color:rgb(189, 178, 160);
     width: 600px;
     margin: auto;
     padding: 10px;
@@ -11,9 +11,10 @@ main {
     font-style: italic;
 }
 .Corpo {
-    background-color:rgb(231, 169, 243);
     padding: 10px;
+    background-color: rgb(129, 216, 238);
 }
 .Foto {
     float: right;
+    width: 150px;
 }
