@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web & display = swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/computer-font.ttf");
+}
+
+/* Formatação do documento */
+body {
+    background-color: #f8e6cf;
+    color: rgba(0,0,0,1);
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Formatação da interface */
+div#interface {
+    width: 1200px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+
+
+/* Formatação do Cabeçalho */
+header#cabecalho {
+    border-bottom: 1px solid #000000;
+    height: 150px;
+}
+
+
+
+/* Formatação do Menu */
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 900px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: #d1cdcd;
+    padding: 10px;
+    margin: 2px;
+    transition: 0.5s;
+}
+nav#menu li:hover  {
+    background-color: #606060;
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+/* Formatação do roda-pé */
+footer#roda-pe {
+    clear: both;
+    border-top: 1px solid #000000;
+}
+footer#roda-pe p {
+    text-align: center;
+}
+
+
+
+/* Formatação dos parágrafos */
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
