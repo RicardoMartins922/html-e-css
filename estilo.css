@@ -34,7 +34,7 @@ div#interface {
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 200px;
-    background: url('../_imagens/Logo.png') no-repeat 50px 80px;
+    background: url('Logo.png') no-repeat 50px 80px;
 }
 header#cabecalho h1{
     font-family: 'FonteLogo';
